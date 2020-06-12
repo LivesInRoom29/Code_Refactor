@@ -57,8 +57,8 @@ p {
     font-size: 16px;
 }
 
-/*  */
-.hero {
+/* For the backgorund image of the people collaborating at a table (in div w/ class hero) */
+div.hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -67,23 +67,28 @@ p {
     background-position: center;
 }
 
-.float-left {
+/* For the images in the content div */
+img.float-left {
     float: left;
     margin-right: 25px;
 }
 
-.float-right {
+/* For the images in the content div */
+img.float-right {
     float: right;
     margin-left: 25px;
 }
 
-.content {
+
+div.content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+    /* Add minimim width? */
+    min-width: 705px;
 }
 
-.benefits {
+div.benefits {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -92,57 +97,59 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+    /* Add minimim width? */
+    min-width: 200px;
 }
 
-.benefit-lead {
+div.benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
+div.benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-cost {
+div.benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-lead h3 {
+div.benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
+div.benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-cost h3 {
+div.benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-lead img {
+div.benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
+div.benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-cost img {
+div.benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.search-engine-optimization {
+div.search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -151,7 +158,7 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
+div.online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -160,7 +167,7 @@ p {
     color: #ffffff;
 }
 
-.social-media-marketing {
+div.social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -169,40 +176,40 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
+div.search-engine-optimization img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
+div.online-reputation-management img {
     max-height: 200px;
 }
 
-.social-media-marketing img {
+div.social-media-marketing img {
     max-height: 200px;
 }
 
-.search-engine-optimization h2 {
+div.search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
+div.online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.social-media-marketing h2 {
+div.social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
