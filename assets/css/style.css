@@ -85,7 +85,7 @@ div.content {
     display: inline-block;
     margin-left: 20px;
     /* Add minimim width? */
-    min-width: 705px;
+    /* min-width: 650px; */
 }
 
 div.benefits {
@@ -101,55 +101,23 @@ div.benefits {
     min-width: 200px;
 }
 
-div.benefit-lead {
+div.specificBenefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-div.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-div.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-div.benefit-lead h3 {
+div.specificBenefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-div.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-div.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-div.benefit-lead img {
+div.specificBenefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-div.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-div.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-div.search-engine-optimization {
+div.specificContent {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -158,49 +126,24 @@ div.search-engine-optimization {
     color: #ffffff;
 }
 
-div.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+div.specificContent img {
+    /* max-height: 200px; */
+    /* width: 30%; */
+    /* min-width: 175px; */
+
+    max-width: 35%;
+    height: auto;
 }
 
-div.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-div.search-engine-optimization img {
-    max-height: 200px;
-}
-
-div.online-reputation-management img {
-    max-height: 200px;
-}
-
-div.social-media-marketing img {
-    max-height: 200px;
-}
-
-div.search-engine-optimization h2 {
+div.specificContent h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-div.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-div.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+div.contentInfo {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
 }
 
 footer {
