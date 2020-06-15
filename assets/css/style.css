@@ -4,10 +4,12 @@
     margin: 0;
 }
 
+/* Sets background color for body */
 body {
     background-color: #d9dcd6;
 }
 
+/* For header at the top of page */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -21,12 +23,12 @@ h1 {
     font-size: 48px;
 }
 
-/* Changes the font color to the seo part of h1 */
+/* Changes the font color of the seo part of h1 */
 h1 .seo {
     color: #d9dcd6;
 }
 
-/* 1st div, with class "header" */
+/* Styles the nav group, with class "header" */
 nav.header {
     padding-top: 15px;
     margin-right: 20px;
@@ -35,24 +37,24 @@ nav.header {
     font-size: 20px;
 }
 
-/* Styles the unordered list in the div with class "header" */
+/* Styles the unordered list in the nav with class "header" */
 nav.header ul {
     list-style-type: none;
 }
 
-/* Styles the list elements within the unordered list in the div w/ class "header */
+/* Styles the list elements within the unordered list in the nav w/ class="header" */
 nav.header ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
-/* for all anchor tags */
+/* Sets the color for all anchor tags */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-/* For all p tags */
+/* Sets font size for all p tags */
 p {
     font-size: 16px;
 }
@@ -67,27 +69,57 @@ div.hero {
     background-position: center;
 }
 
-/* For the images in the content div */
+/* Styles the blocks in the main content  */
+main.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
+
+/* Stlyes the block of each of the 3 sections within the main content */
+div.specificContent {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Stlyes the image of each section within the main content */
+div.specificContent img {
+    max-width: 35%;
+    height: auto;
+}
+
+/* Floats the 1st and 3rd image in the main content to the left */
 img.float-left {
     float: left;
     margin-right: 25px;
 }
 
-/* For the images in the content div */
+/* Floats the 2nd image in the main content to the right */
 img.float-right {
     float: right;
     margin-left: 25px;
 }
 
-
-main.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-    /* Add minimim width? */
-    /* min-width: 650px; */
+/* Sets the margin and font size of the header (h2) within each of the 3 sections of main content */
+div.specificContent h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
+/* Styles the text within each of the 3 main sections */
+div.contentInfo {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+/* Styles the benefits sidebar */
 aside.benefits {
     margin-right: 20px;
     padding: 20px;
@@ -101,51 +133,26 @@ aside.benefits {
     min-width: 200px;
 }
 
+/* Stlyes margin and text color of each benefit within the sidebar */
 div.specificBenefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Stlyes margin and centers text on the header of each benefit within the sidebar */
 div.specificBenefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Stlyes the images for each benefit within the sidebar */
 div.specificBenefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-div.specificContent {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-div.specificContent img {
-    /* max-height: 200px; */
-    /* width: 30%; */
-    /* min-width: 175px; */
-
-    max-width: 35%;
-    height: auto;
-}
-
-div.specificContent h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-div.contentInfo {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: flex-start;
-}
-
+/* Styles the footer */
 footer {
     padding: 30px;
     clear: both;
@@ -153,6 +160,7 @@ footer {
     text-align: center;
 }
 
-footer h2 {
+/*  Styles the header (h4) within the footer */
+footer h4 {
     font-size: 20px;
 }
