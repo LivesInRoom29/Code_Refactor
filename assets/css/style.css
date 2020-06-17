@@ -79,7 +79,7 @@ main.content {
 
 
 /* Stlyes the block of each of the 3 sections within the main content */
-div.specificContent {
+section.specificContent {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -89,7 +89,7 @@ div.specificContent {
 }
 
 /* Stlyes the image of each section within the main content */
-div.specificContent img {
+section.specificContent img {
     max-width: 35%;
     height: auto;
 }
@@ -107,7 +107,7 @@ img.float-right {
 }
 
 /* Sets the margin and font size of the header (h2) within each of the 3 sections of main content */
-div.specificContent h2 {
+section.specificContent h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -134,19 +134,19 @@ aside.benefits {
 }
 
 /* Stlyes margin and text color of each benefit within the sidebar */
-div.specificBenefit {
+section.specificBenefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 /* Stlyes margin and centers text on the header of each benefit within the sidebar */
-div.specificBenefit h3 {
+section.specificBenefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
 /* Stlyes the images for each benefit within the sidebar */
-div.specificBenefit img {
+section.specificBenefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
