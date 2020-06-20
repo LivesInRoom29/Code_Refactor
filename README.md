@@ -33,11 +33,11 @@ Additional changes not necessarily needed for accessibility and sustainablilty:
 * Cascading styles
   * How to use selectors, classes, and IDs so that they are cascading, not just applying the same properties over and over to multiple objects.
   * Commenting to make code more readable.
- 
- * Git and Github
-   * Learned to utilize **Git** for version control.
-   * Learned to utilize **GitHub** to store and share my repository.
-   * Markdown syntax for README files.
+
+* Git and Github
+  * Learned to utilize **Git** for version control.
+  * Learned to utilize **GitHub** to store and share my repository.
+  * Markdown syntax for README files.
 
 
 ## Credits
