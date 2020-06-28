@@ -6,7 +6,7 @@ With this project, I have taken the **HTML** and **CSS** files for a website and
 
 ## Refactoring
 
-[Refactored Horiseon Page](https://livesinroom29.github.io/HW1_Code_Refactor/)
+[Refactored Horiseon Page](https://livesinroom29.github.io/Code_Refactor/)
 
 ![Horiseon_ Enhance Your Online Presence - Google Chrome 6_20_2020 3_32_43 PM](https://user-images.githubusercontent.com/61219066/85210221-0ac6c680-b30c-11ea-8ae4-3f066ff9e47b.png)
 
